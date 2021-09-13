@@ -603,6 +603,9 @@ h5 {
   .formulaire-tel {
     background-color: rgba(141, 138, 160);
   }
+  .textarea-tel {
+    height: 15vh;
+  }
   .form-tel-taille {
     width: 95%;
   }
