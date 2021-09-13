@@ -4,7 +4,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 h1 {
-  text-shadow: 10px 20px 15px #8b0000a2;
+  /* text-shadow: 10px 20px 15px #8b0000a2; */
   font-size: 2rem;
 }
 @media all and (min-width: 768px) {
@@ -123,6 +123,13 @@ h5 {
     box-shadow: 0px 5px 10px #555;
     background-color: black;
   }
+  @media only screen 
+  and (orientation:landscape) 
+  and (max-width: 740px) {
+    #carouselExampleIndicators {
+      display: none;
+    }
+  }
   .carousel-inner {
     background-color: black;
   }
@@ -130,7 +137,7 @@ h5 {
     height: 26vh;
     /* object-fit:contain */
   }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 568px) {
     .carousel-item img {
       height: 35vh;
       /* object-fit:contain */
@@ -461,8 +468,8 @@ h5 {
     padding: 0;
     overflow: hidden;
     margin: auto;
-    height: 27vh;
-    width: 50vh;
+    height: 260px;
+    width: 500px;
     position: relative;
   }
   .container-photo article {
@@ -486,6 +493,10 @@ h5 {
     font-weight: 300;
     color: #fff;
     font-size: 16px;
+  }
+  .container-photo span {
+    height: 260px;
+    width: 500px;
   }
   .container-photo img {
     width: 100%;
@@ -559,6 +570,14 @@ h5 {
     opacity: 1;
   }
   @media all and (max-width: 961px) {
+    .container-photo {
+      height: 220px;
+      width: 450px;
+    }
+    .container-photo span {
+      height: 220px;
+      width: 450px;
+    }
     .container-photo article {
       bottom: -33px;
       transform: translate(2px, -40px);
