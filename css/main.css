@@ -45,12 +45,14 @@ h5 {
   font-size: 3em;
 }
 .billeterie {
+  -webkit-background-color: #68b04d;
   background-color: #68b04d;
   color: #fff;
   border-radius: 10em;
   border-style: hidden;
 }
 .reserver {
+  -webkit-background-color: rgb(68, 142, 226);
   background-color: rgb(68, 142, 226);
   color: #fff;
   border-radius: 10em;
